@@ -7,7 +7,7 @@ public class java27 {
         int a;
         Scanner input = new Scanner(System.in);
 
-        System.out.println("a: ");
+        System.out.print("a: ");
         a = input.nextInt();
 
         for(int i=0; i<=a; i++){
@@ -20,7 +20,7 @@ public class java27 {
                 System.out.print("*");
             System.out.println("");
         }
-
+        input.close();
     }
         
 }
